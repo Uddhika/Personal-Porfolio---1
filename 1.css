@@ -106,7 +106,7 @@ header {
 }
 
 .animation-info {
-  margin: auto 1em;
+  margin: 2em 1em;
 }
 
 .animation-info .animation-info-container {
@@ -472,7 +472,7 @@ header {
     margin-right: 6em;
   }
   .animation-info {
-    margin: auto 6em;
+    margin: 3em 6em;
   }
   .ani-title {
     text-align: left;
