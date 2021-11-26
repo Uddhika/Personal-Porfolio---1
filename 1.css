@@ -282,6 +282,62 @@ header {
 }
 
 @media only screen and (min-width: 750px) {
+  form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0.2em;
+    margin-top: 13em;
+  }
+  label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.375em;
+  }
+  label input {
+    position: absolute;
+    left: -9999px;
+  }
+  label input:checked + span:before {
+    -webkit-box-shadow: inset 0 0 0 0.4375em #2C3E50;
+            box-shadow: inset 0 0 0 0.4375em #2C3E50;
+  }
+  label span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0.375em 0.75em 0.375em 0.375em;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+  }
+  label span:before {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    content: "";
+    background-color: #fff;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    margin-right: -0.3em;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+  }
   .container {
     margin-left: 3em;
   }
@@ -289,16 +345,6 @@ header {
     display: block;
     background-color: #2C3E50;
     height: 100%;
-    position: relative;
-  }
-  .scroll-bar svg {
-    position: fixed;
-    width: 1.5em;
-    margin-left: .7em;
-    margin-top: 11em;
-  }
-  .scroll-bar svg #Ellipse_7 .test {
-    background-color: red;
   }
   .main-body-divide {
     display: -ms-grid;

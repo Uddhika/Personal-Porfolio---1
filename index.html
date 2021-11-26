@@ -29,13 +29,13 @@
     
     <section class="main-body-divide">
 
-        <div class="scroll-bar">
+        <!-- <div class="scroll-bar"> -->
             
-                <svg width="38" height="156" viewBox="0 0 38 156">
+                <!-- <svg width="38" height="156" viewBox="0 0 38 156">
                     <g id="Group_18" data-name="Group 18" transform="translate(-57 -550)">
                     <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(57 550)" fill="none" stroke="#f3ebeb" stroke-width="5">
                         <circle cx="19" cy="19" r="19" stroke="none"/>
-                        <circle class="test" cx="19" cy="19" r="16.5" fill="none"/>
+                        <circle onmouseover="c1()" id="circle1" cx="19" cy="19" r="16.5" fill="none"/>
                     </g>
                     <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(57 609)" fill="none" stroke="#f3ebeb" stroke-width="5">
                         <circle cx="19" cy="19" r="19" stroke="none"/>
@@ -46,8 +46,28 @@
                         <circle cx="19" cy="19" r="16.5" fill="none"/>
                     </g>
                     </g>
-                </svg>
+                </svg> -->
 
+        
+
+        <!-- </div> -->
+
+
+        <div class="scroll-bar">
+            <form>
+                <label>
+                    <input type="radio" name="radio" checked/>
+                    <span></span>
+                </label>
+                <label>
+                    <input type="radio" name="radio"/>
+                    <span></span>
+                </label>
+                <label>
+                    <input type="radio" name="radio"/>
+                    <span></span>
+                </label>
+            </form>
         </div>
 
         <div class="main-content-container">
@@ -232,6 +252,13 @@
        
     </section>
 
+    <script>
+        
+        function c1(){
+            document.getElementById("circle1").style.fill="white";
+        }
+        
+    </script>
 
 </body>
 </html>
