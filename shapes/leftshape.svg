@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="96" viewBox="0 0 512 96">
+  <g id="Group_17" data-name="Group 17" transform="translate(-320 -2584)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="22" cy="22" r="22" transform="translate(788 2584)" fill="#e8f1f2"/>
+    <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="12.859" cy="12.859" rx="12.859" ry="12.859" transform="translate(760.845 2622.053)" fill="#fff"/>
+    <path id="Polygon_1" data-name="Polygon 1" d="M6.435,0l6.435,13.406H0Z" transform="translate(755.267 2599.73) rotate(-39)" fill="#b48479"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M6.435,0l6.435,13.406H0Z" transform="matrix(-0.819, 0.574, -0.574, -0.819, 818.762, 2649.572)" fill="rgba(46,194,90,0.69)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="127" height="25" rx="11" transform="translate(320 2584)" fill="#e7edf2"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="321" height="15" rx="7.5" transform="translate(320 2632)" fill="#e7edf2"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="512" height="10" rx="5" transform="translate(320 2670)" fill="#e7edf2"/>
+  </g>
+</svg>

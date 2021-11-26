@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+body{
+    
+    font-family: Poppins;
+    margin: auto 0em;
+}
+
+
+.scroll-bar {
+    display: none;
+}
+
+
+header{
+    background-color: #2C3E50;
+    
+    // width: 25em;
+}
+
+.container{
+    
+    padding: 1.2em;
+    justify-content: space-between;
+    display: flex;
+    // margin-left: 3em;
+    margin: auto 1em;
+}
+
+.logo{
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+}
+
+.nav{
+    margin: auto 0em;
+    a{
+        color: white;
+        text-decoration: none;
+        padding: 1em;
+        
+    }
+}
+
+.nav-button{
+
+    border: 0.2em solid #2980B9;
+    border-radius: 50em;
+    transition: .4s;
+
+    &:hover{
+    animation: background-color ease-in;   
+    background-color: #2980B9;
+    border-radius: 50em;
+    color: white;
+    }
+}
+
+
+
+.main-body-divide{
+    
+}
+
+.main-content-container{
+    
+    
+    
+}
+
+.welcome-note{
+    // display: grid;
+    // grid-template-columns: 50% auto;
+    
+    background-color: #34495E;
+    .welcome-container{
+        margin: auto 1em;
+        padding: 1em;
+        // margin: auto 2em;
+        // height: 19em;
+        text-align: center;
+        
+        p{
+        
+        line-height:1.3em;   
+        color: white;        
+        font-size: 2em;
+        // text-transform: uppercase;
+        font-weight: 600;
+        // width: 11em;
+        
+        }
+
+        a,.welcome-button{
+            letter-spacing: 0.5em;
+            bottom: 0;
+            color: white;
+            text-decoration: none;
+            background-color: #2980B9;
+            border-radius: 50em;
+            padding: 0.7em 3em;
+            transition: .4s;
+
+            &:hover{
+                animation: background-color ease-in;   
+                background-color: white;
+                border-radius: 50em;
+                color: #2980B9;
+            }
+        }
+
+        .b-line{
+            display: block;
+            width: 25em;
+            margin: 4em auto;
+            // margin-top: 2em;
+            
+        }
+    }
+}
+
+.side-welcome-container{
+    display: none;
+}
+
+
+// animation-projects-details
+
+.animation-info{
+    margin: auto 1em;
+    
+    .animation-info-container{
+        margin: auto 1em;
+        // display: block;
+        // text-align: center;
+    }
+
+    .animation-header-container{
+        // display: flex;
+        // justify-content: space-between;
+        
+        .animation-header{
+            text-align: center;
+            .ani-title{
+                text-transform: uppercase;
+                letter-spacing: .4em;
+                font-weight: 400;
+            }
+
+            .ani-header-name{
+                text-transform: uppercase;
+                font-weight: 600;
+                letter-spacing: 1em;
+            }
+        }
+
+        .animation-header-image img{
+                display: none;
+                // margin: auto auto;
+        }
+
+    }
+
+    .ani-desc-container{
+        font-weight: 300;
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    // .ani-img-container{
+
+        // img{
+        //     width: 100%;
+        //     display: block;
+        // }
+        
+        // .solar-desc,img{
+        //     transition: .4s;
+            
+
+        //     &:hover{ 
+        //         animation: opacity 1s ease-in;
+        //         opacity: 0.5;
+        //     }
+
+        // }
+
+
+//     }
+
+}
+
+.solar{
+    position: relative;
+    
+    .solar-img{
+        width: 100%;
+        display: block;
+    }
+
+    .solar-desc{
+        cursor: pointer;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        top: 0;
+        // left: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity: 0;
+        transition:.4s;
+
+        
+        // visibility: hidden;
+        // transition: .4s;
+        &:hover{
+            animation: opacity,background ease-in;
+            background: rgba(0,0,0,0.5);
+            opacity: 1;
+        }
+    
+
+        .solar-title{
+            font-size: 1.1em;
+            font-weight: 400;
+            text-align: center;
+            margin: 0.2em 2em;
+            
+        }
+
+        .solar-description{
+            font-size: 0.8em;
+            font-weight: 300;
+            text-align: center;
+            margin: 0.2em 2em;
+        }
+
+    }
+
+}
+
+.solar-desc--blur{
+    backdrop-filter: blur(3px);
+}
+
+.solar-desc > *{
+    transform: translateY(20px);
+    transition: transform .4s;
+}
+
+.solar-desc:hover > *{
+    transform: translateY(0);
+}
+
+// .ani-img-container{
+//     display: grid;
+//     grid-template-columns: auto auto;
+// }
+
+
+.programming-info{
+    color: white;
+    
+    background-color: #34495E;
+    .programming-info-container{
+        margin: auto 1em;
+        padding: 1em;
+        // display: block;
+        // text-align: center;
+    }
+
+    .programming-header-container{
+        
+        // display: flex;
+        // justify-content: space-between;
+        
+        .programming-header{
+            
+            .pro-title{
+                text-align: center;
+                text-transform: uppercase;
+                letter-spacing: .4em;
+                font-weight: 400;
+            }
+
+            .pro-header-name{
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 600;
+                letter-spacing: 1em;
+            }
+        }
+
+        .programming-header-image img{
+                display: none;
+                // margin: auto auto;
+        }
+
+    }
+
+    .pro-desc-container{
+        font-weight: 300;
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+}
+
+// programming projects with logo and details 
+
+
+.pro-projects{
+    // padding: unset;
+    // margin: unset;
+    // display: flex;
+    
+    // display: flex;
+    // position: relative;
+    .animeu{
+        // position: absolute;
+        // width: 50%;
+        display: flex;
+        // justify-content: space-evenly;
+        // justify-content: space-between;
+        .animeu-logo{
+            width: 50%;
+            margin-top: -2em;
+        }
+
+        .pro-title{
+            font-size: 1em;
+        }
+
+        .pro-desc{
+            font-size: 0.9em;
+            font-weight: 200;
+        }
+
+    }
+
+}
+
+
+// character images-----------------------------------------------------
+
+
+.ch-img-container{
+    width: 100%;
+}
+
+// footer
+
+.footer-icons{
+    letter-spacing: .5em;
+    padding: 2em;
+    text-align: center;
+    background-color: #2C3E50;
+    img{
+        cursor: pointer;
+        width: 10%;
+        height: 10%;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 750px) {
+
+    .container{
+        margin-left: 3em;
+    }
+    
+    
+
+    .scroll-bar{
+        display: block;
+        background-color: #2C3E50;
+        height: 100%;
+        position: relative;
+        
+        svg{
+
+            position: fixed;
+            width: 1.5em;
+            margin-left: .7em;
+            margin-top: 11em;
+
+            #Ellipse_7{
+                
+                .test{
+                    background-color: red;
+                }
+                
+            }
+
+        }
+
+        // img{
+        //     display: block;
+        //     position: fixed;
+        //     width: 1.4em;
+        //     margin: auto 0.7em;
+        //     margin-top: 16em;
+        // }
+    }
+
+    .main-body-divide{
+        display: grid;
+        grid-template-columns: 3em auto;
+    }
+
+    
+    .animeu-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .footer-icons{
+        img{
+            width: 3em;
+        }
+    }
+
+}
+
+// *{
+//     border: 1px solid red;
+// }
+
+@media only screen and (min-width: 1024px) {
+
+    .welcome-note{
+        display: grid;
+        grid-template-columns: 50% auto;
+        background-color: #34495E;
+        height:25em;
+            .welcome-container{
+                
+                text-align: left;
+                .b-line{
+                    margin-left: 0em;
+                }
+            }
+                  
+                .side-welcome-container{
+                    display: block;
+                    position: relative;
+                    
+                    .t-line{
+                        width: 15em;
+                        position: absolute;
+                        right: 0;
+                        margin-top: 2em;
+                        margin-right: 2em;
+                    }
+                    .b-circle{
+                        position: absolute;
+                        width: 20em;
+                        right: 0;
+                        bottom: 0;
+                        margin: 2em 2em 2em 2em;
+                    }
+                }
+             
+                
+                
+    }
+   
+    
+
+    .ani-img-container{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    
+        .pro-projects{
+            
+            display: grid;
+            grid-template-columns: auto auto;
+            margin: 1em auto;
+            .animeu{
+                .animeu-logo{
+                    width: 50%;
+                }
+                .sri-logo{
+                    width: 50%;
+                }
+            }        
+        }
+
+        .animation-info-container{
+            
+            .animation-header-container{
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                .animation-header-image img{
+                    position: absolute;
+                    display: block;
+                    width: 20em;
+                    right: 0;
+                    margin-top: 1em;
+                    // margin: auto auto;
+                }    
+            }
+        }
+
+        .programming-info-container{
+            
+            .programming-header-container{
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                .programming-header-image img{
+                    position: absolute;
+                   display: block;
+                   width: 20em;
+                   left: 0;
+                   margin-top: 1em;
+                    // margin: auto auto;
+                }    
+            }
+        }
+}   
+
+
+
+@media only screen and (min-width: 1280px) {
+
+    .container{
+        margin-left: 9em;
+        margin-right: 6em;
+    }
+    .welcome-note {
+        
+        .welcome-container{
+            margin-left: 6em;
+        }
+
+        .side-welcome-container{
+            margin-right: 6em;
+        }
+    }
+    
+    .animation-info{
+        margin: auto 6em;
+    }
+
+    .ani-title{
+        text-align: left;
+    }
+
+    .ani-header-name{
+        text-align: left;
+    }
+
+    .programming-info{
+
+        .programming-info-container{
+            margin: auto 6em;
+
+            .programming-header-container{
+
+                .programming-header{
+
+                    .pro-title{
+
+                        text-align: right;
+
+                    }
+
+                    .pro-header-name{
+                        text-align: right;
+                    }
+
+                }
+
+            }
+            
+        }
+
+    }
+
+            
+}
+
+
+// *{
+//     border: 1px solid red;
+// }
+
+

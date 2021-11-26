@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="513.585" height="96" viewBox="0 0 513.585 96">
+  <g id="Group_13" data-name="Group 13" transform="translate(-1230.415 -1199)">
+    <g id="Group_10" data-name="Group 10">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="127" height="25" rx="11" transform="translate(1617 1199)" fill="#2c3e50"/>
+      <rect id="Rectangle_6" data-name="Rectangle 6" width="321" height="15" rx="7.5" transform="translate(1423 1247)" fill="#2c3e50"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="512" height="10" rx="5" transform="translate(1232 1285)" fill="#2c3e50"/>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(76 32)">
+      <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="24.011" cy="24.392" rx="24.011" ry="24.392" transform="translate(1154.415 1167)" fill="#2c3e50"/>
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="14.102" cy="14.102" r="14.102" transform="translate(1202.882 1212.762)" fill="#34495e"/>
+      <path id="Polygon_4" data-name="Polygon 4" d="M7.056,0l7.056,14.7H0Z" transform="translate(1227.091 1175.369) rotate(39)" fill="#b48479"/>
+      <path id="Polygon_3" data-name="Polygon 3" d="M7.056,0l7.056,14.7H0Z" transform="matrix(-0.819, -0.574, 0.574, -0.819, 1179.99, 1247)" fill="rgba(46,194,90,0.69)"/>
+    </g>
+  </g>
+</svg>

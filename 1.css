@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: Poppins;
+  margin: auto 0em;
+}
+
+.scroll-bar {
+  display: none;
+}
+
+header {
+  background-color: #2C3E50;
+}
+
+.container {
+  padding: 1.2em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 1em;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: 600;
+  color: white;
+}
+
+.nav {
+  margin: auto 0em;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.nav-button {
+  border: 0.2em solid #2980B9;
+  border-radius: 50em;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.nav-button:hover {
+  -webkit-animation: background-color ease-in;
+          animation: background-color ease-in;
+  background-color: #2980B9;
+  border-radius: 50em;
+  color: white;
+}
+
+.welcome-note {
+  background-color: #34495E;
+}
+
+.welcome-note .welcome-container {
+  margin: auto 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+.welcome-note .welcome-container p {
+  line-height: 1.3em;
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.welcome-note .welcome-container a, .welcome-note .welcome-container .welcome-button {
+  letter-spacing: 0.5em;
+  bottom: 0;
+  color: white;
+  text-decoration: none;
+  background-color: #2980B9;
+  border-radius: 50em;
+  padding: 0.7em 3em;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.welcome-note .welcome-container a:hover, .welcome-note .welcome-container .welcome-button:hover {
+  -webkit-animation: background-color ease-in;
+          animation: background-color ease-in;
+  background-color: white;
+  border-radius: 50em;
+  color: #2980B9;
+}
+
+.welcome-note .welcome-container .b-line {
+  display: block;
+  width: 25em;
+  margin: 4em auto;
+}
+
+.side-welcome-container {
+  display: none;
+}
+
+.animation-info {
+  margin: auto 1em;
+}
+
+.animation-info .animation-info-container {
+  margin: auto 1em;
+}
+
+.animation-info .animation-header-container .animation-header {
+  text-align: center;
+}
+
+.animation-info .animation-header-container .animation-header .ani-title {
+  text-transform: uppercase;
+  letter-spacing: .4em;
+  font-weight: 400;
+}
+
+.animation-info .animation-header-container .animation-header .ani-header-name {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1em;
+}
+
+.animation-info .animation-header-container .animation-header-image img {
+  display: none;
+}
+
+.animation-info .ani-desc-container {
+  font-weight: 300;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.solar {
+  position: relative;
+}
+
+.solar .solar-img {
+  width: 100%;
+  display: block;
+}
+
+.solar .solar-desc {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.solar .solar-desc:hover {
+  -webkit-animation: opacity,background ease-in;
+          animation: opacity,background ease-in;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+.solar .solar-desc .solar-title {
+  font-size: 1.1em;
+  font-weight: 400;
+  text-align: center;
+  margin: 0.2em 2em;
+}
+
+.solar .solar-desc .solar-description {
+  font-size: 0.8em;
+  font-weight: 300;
+  text-align: center;
+  margin: 0.2em 2em;
+}
+
+.solar-desc--blur {
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+}
+
+.solar-desc > * {
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: -webkit-transform .4s;
+  transition: -webkit-transform .4s;
+  transition: transform .4s;
+  transition: transform .4s, -webkit-transform .4s;
+}
+
+.solar-desc:hover > * {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.programming-info {
+  color: white;
+  background-color: #34495E;
+}
+
+.programming-info .programming-info-container {
+  margin: auto 1em;
+  padding: 1em;
+}
+
+.programming-info .programming-header-container .programming-header .pro-title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .4em;
+  font-weight: 400;
+}
+
+.programming-info .programming-header-container .programming-header .pro-header-name {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1em;
+}
+
+.programming-info .programming-header-container .programming-header-image img {
+  display: none;
+}
+
+.programming-info .pro-desc-container {
+  font-weight: 300;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.pro-projects .animeu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pro-projects .animeu .animeu-logo {
+  width: 50%;
+  margin-top: -2em;
+}
+
+.pro-projects .animeu .pro-title {
+  font-size: 1em;
+}
+
+.pro-projects .animeu .pro-desc {
+  font-size: 0.9em;
+  font-weight: 200;
+}
+
+.ch-img-container {
+  width: 100%;
+}
+
+.footer-icons {
+  letter-spacing: .5em;
+  padding: 2em;
+  text-align: center;
+  background-color: #2C3E50;
+}
+
+.footer-icons img {
+  cursor: pointer;
+  width: 10%;
+  height: 10%;
+}
+
+@media only screen and (min-width: 750px) {
+  .container {
+    margin-left: 3em;
+  }
+  .scroll-bar {
+    display: block;
+    background-color: #2C3E50;
+    height: 100%;
+    position: relative;
+  }
+  .scroll-bar svg {
+    position: fixed;
+    width: 1.5em;
+    margin-left: .7em;
+    margin-top: 11em;
+  }
+  .scroll-bar svg #Ellipse_7 .test {
+    background-color: red;
+  }
+  .main-body-divide {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 3em auto;
+        grid-template-columns: 3em auto;
+  }
+  .animeu-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-icons img {
+    width: 3em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .welcome-note {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% auto;
+        grid-template-columns: 50% auto;
+    background-color: #34495E;
+    height: 25em;
+  }
+  .welcome-note .welcome-container {
+    text-align: left;
+  }
+  .welcome-note .welcome-container .b-line {
+    margin-left: 0em;
+  }
+  .welcome-note .side-welcome-container {
+    display: block;
+    position: relative;
+  }
+  .welcome-note .side-welcome-container .t-line {
+    width: 15em;
+    position: absolute;
+    right: 0;
+    margin-top: 2em;
+    margin-right: 2em;
+  }
+  .welcome-note .side-welcome-container .b-circle {
+    position: absolute;
+    width: 20em;
+    right: 0;
+    bottom: 0;
+    margin: 2em 2em 2em 2em;
+  }
+  .ani-img-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .pro-projects {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    margin: 1em auto;
+  }
+  .pro-projects .animeu .animeu-logo {
+    width: 50%;
+  }
+  .pro-projects .animeu .sri-logo {
+    width: 50%;
+  }
+  .animation-info-container .animation-header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+  }
+  .animation-info-container .animation-header-container .animation-header-image img {
+    position: absolute;
+    display: block;
+    width: 20em;
+    right: 0;
+    margin-top: 1em;
+  }
+  .programming-info-container .programming-header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+  }
+  .programming-info-container .programming-header-container .programming-header-image img {
+    position: absolute;
+    display: block;
+    width: 20em;
+    left: 0;
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    margin-left: 9em;
+    margin-right: 6em;
+  }
+  .welcome-note .welcome-container {
+    margin-left: 6em;
+  }
+  .welcome-note .side-welcome-container {
+    margin-right: 6em;
+  }
+  .animation-info {
+    margin: auto 6em;
+  }
+  .ani-title {
+    text-align: left;
+  }
+  .ani-header-name {
+    text-align: left;
+  }
+  .programming-info .programming-info-container {
+    margin: auto 6em;
+  }
+  .programming-info .programming-info-container .programming-header-container .programming-header .pro-title {
+    text-align: right;
+  }
+  .programming-info .programming-info-container .programming-header-container .programming-header .pro-header-name {
+    text-align: right;
+  }
+}
+/*# sourceMappingURL=1.css.map */
