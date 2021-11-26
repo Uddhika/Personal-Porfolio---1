@@ -3,6 +3,11 @@
 $primary-color: #2C3E50; 
 
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 body{
     
     font-family: Poppins;
@@ -388,6 +393,7 @@ form {
     margin-top: 13em;
     position: fixed;
 }
+
 
 label {
 	display: flex;

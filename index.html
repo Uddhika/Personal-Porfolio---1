@@ -12,7 +12,7 @@
     
 
     
-    
+    <a name="top"></a>
 
     <header>
         <div class="container">
@@ -55,19 +55,25 @@
 
         <div class="scroll-bar">
             <form>
+                
                 <label>
-                    <input type="radio" name="radio" checked/>
-                    <!-- <a href="#animation"></a> -->
+                    <input onclick="top1()" type="radio" name="radio" checked/>
+                    
                     <span></span>
                 </label>
+                
+                
                 <label>
-                    <input type="radio" name="radio"/>
+                    <input onclick="middle1()" type="radio" name="radio"/>
                     <span></span>
                 </label>
+                
+                
                 <label>
-                    <input type="radio" name="radio"/>
+                    <input onclick="end1()" type="radio" name="radio"/>
                     <span></span>
                 </label>
+                
             </form>
         </div>
 
@@ -161,7 +167,9 @@
 
             <!-- programming section ----------------------------- -->
 
-            <section class="programming-info">
+            <a id="middle"></a>
+
+            <section class="programming-info" id="pro">
 
                 <div class="programming-info-container">
 
@@ -205,6 +213,8 @@
             </section>
 
             <!-- character section ----------------------------- -->
+
+            <a name="end"></a>
 
             <section class="animation-info">
                 
@@ -253,7 +263,21 @@
        
     </section>
 
-    
+    <script>
+
+        function top1(){
+            window.location = "#top";
+        }
+
+        function middle1(){
+            window.location = "#middle";
+
+        }
+
+        function end1(){
+            window.location = "#end";
+        }
+    </script>
 
 </body>
 </html>
